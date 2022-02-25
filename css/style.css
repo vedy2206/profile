@@ -1,0 +1,66 @@
+
+@import url(components/avatar.css);
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/cards.css);
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #EEEBDD;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    width: 700px;
+    margin: 0px auto;
+  }
+
+strong {
+    font-weight:bolder;
+    font-size: 39px;
+}
+
+#frase {
+    font-weight: bolder;
+}
+
+.card h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.card p {
+    text-align: justify;
+}
+.card i {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media (max-width: 960px) {
+    /* Para una pantalla < 960px, se leerá este CSS */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* Para una pantalla < 720px, se leerá este CSS */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* Para una pantalla < 540px, se leerá este CSS */
+    .container {
+      width: 300px;
+    }
+  }
